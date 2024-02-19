@@ -1,0 +1,29 @@
+.back{
+    float: right;
+}
+.back img{
+    mix-blend-mode: multiply;
+    width: 280px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main img{
+    margin-left: calc(30%);
+    width: 650px;
+    justify-content: center;
+    border-radius: 10px;
+    border:5px solid rgba(216,222,186,1);
+}
+h2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background: rgb(255,107,107);
+    background: radial-gradient(circle, rgba(255,107,107,1) 0%, rgba(216,222,186,1) 100%);
+}
